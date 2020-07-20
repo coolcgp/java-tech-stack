@@ -1,2 +1,5 @@
 # java-tech-stack
-Java technology stack
+## 知之为知之，不知为不知。知行合一方为知！
+
+本项目将按照Java技术栈中技能树，逐个展开
+以包为粒度，进行区分
