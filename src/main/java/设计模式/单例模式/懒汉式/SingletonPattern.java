@@ -13,7 +13,7 @@ public class SingletonPattern {
      */
     private String name;
 
-    private static volatile SingletonPattern instance = null;
+    private static SingletonPattern instance = null;
 
     private SingletonPattern() {
         this.name = "懒汉式";
