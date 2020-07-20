@@ -27,12 +27,12 @@ public class SingletonPattern {
         this.name = name;
     }
 
+    /**
+     * 效率低的原因，每次调用 getInstance() 不能并发
+     * @return
+     */
     public static synchronized SingletonPattern getInstance() {
         if (instance == null) {
-            // 当下是安全的。不加volatile（禁止指令重排序）不安全的原因。
-            // 1. 栈上 instance
-            // 2. 栈上指向堆
-            // 3. 堆上 new SingletonPattern()
             instance = new SingletonPattern();
         }
         return instance;

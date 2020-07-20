@@ -3,7 +3,8 @@ package 设计模式.单例模式;
 //import 设计模式.单例模式.饿汉式.SingletonPattern;
 //import 设计模式.单例模式.懒汉式.SingletonPattern;
 //import 设计模式.单例模式.内部类.SingletonPattern;
-import 设计模式.单例模式.枚举类.SingletonPattern;
+//import 设计模式.单例模式.枚举类.SingletonPattern;
+import 设计模式.单例模式.双重检测.SingletonPattern;
 
 /**
  * @program: java-tech-stack
