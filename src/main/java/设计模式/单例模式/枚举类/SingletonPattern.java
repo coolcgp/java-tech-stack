@@ -15,7 +15,7 @@ public enum SingletonPattern {
      */
     private String name;
 
-    private SingletonPattern() {
+    SingletonPattern() {
         this.name = "枚举类";
     }
 

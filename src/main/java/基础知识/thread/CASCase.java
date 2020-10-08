@@ -1,0 +1,9 @@
+package 基础知识.thread;
+
+public class CASCase {
+    public volatile int value;
+
+    public synchronized void add() {
+        value++;
+    }
+}
