@@ -8,15 +8,15 @@ package 设计模式.单例模式.枚举类;
  **/
 public enum SingletonPattern {
 
-    INSTANCE;
+    INSTANCE("冠鸟单例");
 
     /**
      * 名称
      */
     private String name;
 
-    SingletonPattern() {
-        this.name = "枚举类";
+    SingletonPattern(String name) {
+        this.name = name;
     }
 
     public String getName() {

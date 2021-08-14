@@ -1,4 +1,5 @@
-package com.ranger.structural.facade;
+package 设计模式.teacher.structural.facade;
+
 
 /**
  * 描述:
